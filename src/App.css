@@ -4,6 +4,10 @@ a {
   color:black;
 }
 
+ul li {
+  list-style-type: none;
+}
+
 /* header */
 .header {
   background-color: white;
@@ -74,7 +78,7 @@ a {
   top: 0;
   right: 0;
   width: 10%;
-  max-width: 50px;
+  max-width: 60px;
   height: 100%;
   z-index: 99;
   display: block;
@@ -85,24 +89,34 @@ a {
   border-left:none;
 }
 
-.side-about p, .side-about-ex p {
+.side-about h2, .side-about-ex h2 {
   margin-top: 45vh;
   writing-mode: vertical-lr;
   text-orientation: mixed;
 }
 
+/* slide in animation later */
 .side-about-extended {
   overflow-x: hidden;
   background-color: white;
   position: fixed;
   top: 0;
-  right: 50px;
-  width: 50%;
-  max-width: 250px;
+  right: 60px;
+  width: 60%;
+  max-width: 600px;
   height: 100%;
   z-index: 33;
   display: block;
   border-left: 2px solid black;
+  padding-top: 5%;
+  padding-right: 5%;
+}
+
+.side-about-extended p {
+  font-size: 1.2em;
+  text-indent: 2em;
+  line-height: 150%;
+  margin: auto 15%;
 }
 
 /* side-work */
@@ -114,7 +128,7 @@ a {
   top: 0;
   left: 0;
   width: 10%;
-  max-width: 50px;
+  max-width: 60px;
   height: 100%;
   z-index: 99;
   display: block;
@@ -125,25 +139,28 @@ a {
   border-right: none;
 }
 
-.side-work p, .side-work-ex p {
+.side-work h2, .side-work-ex h2 {
   margin-top: 45vh;
   transform: rotate(180deg);
   writing-mode: vertical-rl;
   text-orientation: mixed;
 }
 
+/* slide in animation later */
 .side-work-extended {
   overflow-x: hidden;
   background-color: white;
   position: fixed;
   top: 0;
-  left: 50px;
-  width: 50%;
-  max-width: 250px;
+  left: 60px;
+  width: 60%;
+  max-width: 600px;
   height: 100%;
   z-index: 33;
   display: block;
   border-right: 2px solid black;
+  padding-top: 5%;
+  padding-left: 5%;
 }
 
 /* footer */

@@ -5,7 +5,7 @@ const AboutExtended = () => {
     <div className="side-about-extended">
       <p>Curious and having a wide range of interests, Tibby pursues creative work that is insight-driven, strongly articulated, and intimately considered.</p>
       <p>With a focus on educational, cultural, and socially responsible projects, Tibby is eager to work with people and on projects that create value in exceptional ways.</p>
-      <p>Tibby is currently a freelance developer and designer, living her bicoastal dream.</p>
+      <p>Tibby is currently a freelance developer and designer, living her bicoastal dream between New York City and Vancouver.</p>
     </div>
   )
 }
