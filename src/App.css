@@ -27,7 +27,42 @@ a {
 }
 
 /* main */
+.main-list {
+  display: flex;
+  flex-direction: column;
+}
 
+.bio {
+  margin: 25% 15%;
+  width: 70vw;
+  height: 90vh;
+  max-height:100px;
+  text-align: center;
+}
+
+.bio p  {
+  font-size: 2em;
+  max-width: 700px;
+  line-height: 120%;
+}
+
+.bio-work-each {
+  padding:10%;
+  width: 100%;
+  background-color: lightgray;
+}
+
+.bio-work {
+  display: flex;
+  /* flex-direction: row; */
+  flex-wrap: wrap;
+}
+.bio-work>div {
+  flex: 0 50%;
+  /* margin:1%; */
+  border: white solid;
+  box-sizing:border-box
+}
 /* side-about */
 .side-about {
   display: block;
