@@ -41,8 +41,8 @@ ul li {
 }
 
 .bio {
-  margin: 25% 15%;
-  width: 70vw;
+  margin: 30% auto;
+  min-width: 70vw;
   height: 90vh;
   max-height:100px;
   text-align: center;
@@ -50,8 +50,8 @@ ul li {
 
 .bio p  {
   font-size: 2em;
-  max-width: 700px;
-  line-height: 120%;
+  max-width: 1200px;
+  line-height: 150%;
 }
 
 .bio-work-each {
@@ -112,11 +112,15 @@ ul li {
   padding-right: 5%;
 }
 
-.side-about-extended p {
+.side-about-extended p, .side-about-extended a {
   font-size: 1.2em;
   text-indent: 2em;
   line-height: 150%;
   margin: auto 15%;
+}
+
+.side-about-extended a {
+  display: block;
 }
 
 /* side-work */
@@ -161,6 +165,14 @@ ul li {
   border-right: 2px solid black;
   padding-top: 5%;
   padding-left: 5%;
+}
+
+.side-work-extended h2 {
+  font-size: 1.1em;
+}
+.side-work-extended ul li {
+  line-height: 140%;
+  font-size: 1.2em;
 }
 
 /* footer */
