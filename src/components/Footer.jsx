@@ -8,6 +8,7 @@ const Footer = () => {
       </div>
       <div className="footer-links">
         <a href="mailto:sherunsfreely@gmail.com">Email</a>
+        <a href="https://github.com/fallwall">GitHub</a>
         <a href="https://www.linkedin.com/in/tibbyxu/">LinkedIn</a>
         <a href="https://www.instagram.com/fallwall19/">Instagram</a>
         <a href="https://www.sherunsfreely.com">SheRunsFreely</a>

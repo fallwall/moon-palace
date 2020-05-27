@@ -1,8 +1,8 @@
 import React from 'react';
 
-const Work=()=> {
+const Work=(props)=> {
   return (
-    <div className="side-work">
+    <div className={props.isWorkExtended?"side-work-ex":"side-work"} onClick={props.changeWork}>
       <p>Work</p>
     </div>
   )

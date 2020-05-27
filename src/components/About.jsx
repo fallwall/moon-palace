@@ -1,8 +1,8 @@
 import React from 'react';
 
-const About=()=> {
+const About=(props)=> {
   return (
-    <div className="side-about">
+    <div className={props.isAboutExtended?"side-about-ex":"side-about"} onClick={props.changeAbout}>
       <p>About</p>
     </div>
   )

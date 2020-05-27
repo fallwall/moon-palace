@@ -67,7 +67,7 @@ a {
 }
 /* side-about */
 /* will be hidden in small screen */
-.side-about {
+.side-about, .side-about-ex {
   overflow-x: hidden;
   background-color: white;
   position: fixed;
@@ -81,15 +81,33 @@ a {
   border-left: 2px solid black;
 }
 
-.side-about p {
+.side-about-ex {
+  border-left:none;
+}
+
+.side-about p, .side-about-ex p {
   margin-top: 45vh;
   writing-mode: vertical-lr;
   text-orientation: mixed;
 }
 
+.side-about-extended {
+  overflow-x: hidden;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  right: 50px;
+  width: 50%;
+  max-width: 250px;
+  height: 100%;
+  z-index: 33;
+  display: block;
+  border-left: 2px solid black;
+}
+
 /* side-work */
 /* will be hidden in small screen */
-.side-work {
+.side-work, .side-work-ex {
   overflow-x: hidden;
   background-color: white;
   position: fixed;
@@ -103,11 +121,29 @@ a {
   border-right: 2px solid black;
 }
 
-.side-work p {
+.side-work-ex {
+  border-right: none;
+}
+
+.side-work p, .side-work-ex p {
   margin-top: 45vh;
   transform: rotate(180deg);
   writing-mode: vertical-rl;
   text-orientation: mixed;
+}
+
+.side-work-extended {
+  overflow-x: hidden;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 50px;
+  width: 50%;
+  max-width: 250px;
+  height: 100%;
+  z-index: 33;
+  display: block;
+  border-right: 2px solid black;
 }
 
 /* footer */
