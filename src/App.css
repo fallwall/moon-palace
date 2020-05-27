@@ -5,17 +5,37 @@ a {
 }
 
 /* header */
+.header {
+  background-color: white;
+  color: black;
+  font-size: 1.4em;
+  max-width: 2000px;
+  height: 70px !important;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items:center;
+  justify-content: space-between;
+}
+
+.header-left {
+  margin-left: 10%;
+}
+
+.header-right {
+  margin-right: 10%;
+}
 
 /* main */
 
 /* side-about */
-/* .side-about {
+.side-about {
   display: block;
   position: fixed;
   left: 0;
   border-bottom: 2px solid black;
   background: white;
-} */
+}
 
 /* side-work */
 
@@ -25,7 +45,7 @@ a {
 .footer {
  background-color: black;
  color:white;
- max-width: 1170px;
+ max-width: 2000px;
  display: flex;
  flex-direction: row;
  align-content: center;
