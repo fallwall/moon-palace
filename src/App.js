@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from './components/Header';
 import Main from './components/Main';
+import Footer from './components/Footer';
 import Work from './components/Work';
 import About from './components/About';
 
@@ -13,6 +14,7 @@ function App() {
       <Main />
       <Work />
       <About />
+      <Footer />
     </div>
   );
 }

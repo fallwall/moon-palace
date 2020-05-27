@@ -1,16 +1,55 @@
 /* universal */
+a {
+  text-decoration: none;
+  color:black;
+}
 
 /* header */
 
 /* main */
 
 /* side-about */
-.side-about {
+/* .side-about {
   display: block;
   position: fixed;
   left: 0;
   border-bottom: 2px solid black;
   background: white;
-}
+} */
 
 /* side-work */
+
+
+/* footer */
+
+.footer {
+ background-color: black;
+ color:white;
+ max-width: 1170px;
+ display: flex;
+ flex-direction: row;
+ align-content: center;
+ align-items:center;
+ justify-content: space-around;
+}
+
+.footer a {
+  color:white;
+  display: block;
+}
+
+.footer-bio, .footer-links {
+  margin: 5%;
+  padding: 5%;
+  width: 30%;
+  max-width: 400px;
+}
+
+.footer-bio {
+  line-height: 200%;
+  font-size: 1.2em;
+}
+
+.footer-links {
+  line-height: 150%;
+}
