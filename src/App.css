@@ -66,6 +66,7 @@ a {
   box-sizing:border-box
 }
 /* side-about */
+/* will be hidden in small screen */
 .side-about {
   overflow-x: hidden;
   background-color: white;
@@ -81,11 +82,13 @@ a {
 }
 
 .side-about p {
+  margin-top: 45vh;
   writing-mode: vertical-lr;
   text-orientation: mixed;
 }
 
 /* side-work */
+/* will be hidden in small screen */
 .side-work {
   overflow-x: hidden;
   background-color: white;
@@ -101,6 +104,8 @@ a {
 }
 
 .side-work p {
+  margin-top: 45vh;
+  transform: rotate(180deg);
   writing-mode: vertical-rl;
   text-orientation: mixed;
 }
