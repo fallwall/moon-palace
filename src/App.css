@@ -1,0 +1,16 @@
+/* universal */
+
+/* header */
+
+/* main */
+
+/* side-about */
+.side-about {
+  display: block;
+  position: fixed;
+  left: 0;
+  border-bottom: 2px solid black;
+  background: white;
+}
+
+/* side-work */
