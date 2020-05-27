@@ -3,7 +3,7 @@ import React from 'react';
 const Work=()=> {
   return (
     <div className="side-work">
-      Work
+      <p>Work</p>
     </div>
   )
 }
