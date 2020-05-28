@@ -203,8 +203,24 @@ ul li {
 .footer-bio {
   line-height: 200%;
   font-size: 1.2em;
+  text-indent: 2em;
 }
 
 .footer-links {
   line-height: 150%;
+}
+
+/* arrow up */
+.arrow-container {
+  background-color: red;
+  position: fixed;
+  height: 40px;
+  width: 40px;
+  bottom: 140px;
+  right: 170px;
+  z-index:2000;
+}
+
+.arrow-container i {
+  color: black;
 }

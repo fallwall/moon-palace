@@ -6,6 +6,7 @@ import Work from './components/Work';
 import WorkExtended from './components/WorkExtended';
 import About from './components/About';
 import AboutExtended from './components/AboutExtended';
+import Arrow from './components/Arrow';
 
 import './App.css';
 
@@ -46,6 +47,7 @@ class App extends Component {
           changeAbout={this.changeAbout} />
         {this.state.isAboutExtended && <AboutExtended />}
         <Footer />
+        <Arrow />
       </div>
     );
   }

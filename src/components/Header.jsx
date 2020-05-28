@@ -7,17 +7,17 @@ const coordinates = [
 ]
 
 const Header = () => {
-  const [location, setLocation] = useState("40°39′N 73°56′W");
+  const [location, setLocation] = useState(0);
   setTimeout(() => {
-    setLocation(coordinates[Math.floor(Math.random() * 3)].coord)
-  }, 3000);
+    setLocation(Math.floor(Math.random() * 3))
+  }, 10000);
   return (
     <div className="header">
       <div className="header-left">
         Tibby Xu
       </div>
       <div className="header-right">
-        - {location}
+        - {coordinates[location].coord}
       </div>
     </div>
   )

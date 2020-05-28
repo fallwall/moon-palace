@@ -13,7 +13,7 @@ const BioWork = () => {
         zeug
       </div>
       <div className="bio-work-each">
-        zeg
+        zeug
       </div>
     </div>
   )
