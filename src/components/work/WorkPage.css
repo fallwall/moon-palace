@@ -51,6 +51,7 @@
   align-items: center;
 }
 
+/* red flag here */
 .prev:hover, .next:hover, .prev h1:hover, .next h1:hover {
   background: black;
   color:white;
