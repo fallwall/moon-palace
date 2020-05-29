@@ -224,3 +224,8 @@ ul li {
 .arrow {
   color: black;
 }
+
+.arrow-container:hover {
+  height: 50px;
+  width: 50px;
+}
