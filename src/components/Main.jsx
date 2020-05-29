@@ -1,12 +1,12 @@
 import React from 'react';
 import MainList from './main/MainList';
-import WorkList from './work/WorkList';
+import WorkPage from './work/WorkPage';
 
 const Main = () => {
   return (
     <div className="main">
       {/* <MainList /> */}
-      <WorkList />
+      <WorkPage />
     </div>
   )
 }
