@@ -55,9 +55,33 @@ ul li {
 }
 
 .bio-work-each {
-  padding:10%;
+  padding:2%;
   width: 100%;
   background-color: lightgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+}
+
+.bio-work-each img {
+  width: 100%;
+  flex-shrink: 0;
+  min-width: 100%;
+  min-height: 100%
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .bio-work {
