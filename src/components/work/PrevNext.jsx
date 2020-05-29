@@ -4,12 +4,12 @@ const PrevNext = () => {
   return (
     <div className="workpage-prevnext">
       <div className="prev">
-        <div>Previous</div>
-        <div>Name of prev</div>
+        <div><p>Previous</p></div>
+        <div><h1>Name of prev</h1></div>
       </div>
       <div className="next">
-        <div>Next</div>
-        <div>Name of next</div>
+        <div><h1>Name of next</h1></div>
+        <div><p>Next</p></div>
       </div>
     </div>
   )

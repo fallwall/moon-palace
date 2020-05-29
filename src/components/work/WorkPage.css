@@ -1,3 +1,72 @@
 .work-page-cover img {
   width: 100%;
 }
+
+
+
+/* previous and next section */
+.workpage-prevnext {
+  margin: 2% 1%;
+  padding: 0 10%;
+  height:50vh;
+  max-height: 350px;
+  min-height: 200px;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+}
+
+.workpage-prevnext>div {
+  flex: 0 50%;
+  height: 100%;
+  border: white solid;
+  box-sizing:border-box;
+  border:none;
+}
+
+.prev, .next {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.prev:hover, .next:hover, .prev h1:hover, .next h1:hover {
+  background: black;
+  color:white;
+}
+
+.prev>div {
+  flex: 10% 90%;
+}
+
+.next>div {
+  flex: 90% 10%;
+}
+
+.prev p, .next p {
+  /* margin-top: 50%; */
+  text-orientation: mixed;
+}
+
+.prev p {
+  transform: rotate(180deg);
+  writing-mode: vertical-rl;
+}
+.next p{
+  writing-mode: vertical-lr;
+}
+
+.prev h1, .next h1 {
+  margin: auto;
+  padding: 3em;
+  width: 70%;
+  min-width: 100px;
+  color: black;
+  line-height: 1.1;
+  word-wrap: initial;
+}
