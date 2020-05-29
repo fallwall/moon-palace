@@ -10,7 +10,7 @@
   width: 100%;
 }
 
-.workpage-imgs img {
+.workpage-imgs img, .workpage-slides img {
   width: 100%;
   margin: 5% auto;
 }
