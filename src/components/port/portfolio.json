@@ -7,12 +7,14 @@
       "year": "2019",
       "img": "https://i.imgur.com/vvmqEzO.jpg",
       "tools": [
-        "JavaScript"
+        "JavaScript",
+        "API",
+        "Another filler"
       ],
       "imgs": [
-        "https://i.imgur.com/v6IBQjp.png",
-        "https://i.imgur.com/v6IBQjp.png",
-        "https://i.imgur.com/v6IBQjp.png"
+        "https://i.imgur.com/Utvn1ZO.jpg",
+        "https://i.imgur.com/Utvn1ZO.jpg",
+        "https://i.imgur.com/Utvn1ZO.jpg"
       ],
       "slides": [
         "https://i.imgur.com/v6IBQjp.png",
