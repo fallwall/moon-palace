@@ -9,7 +9,7 @@ const coordinates = [
 const Header = () => {
   const [location, setLocation] = useState(0);
   setTimeout(() => {
-    setLocation(Math.floor(Math.random() * 3))
+    location < 2 ? setLocation(location + 1) : setLocation(0);
   }, 10000);
   return (
     <div className="header">

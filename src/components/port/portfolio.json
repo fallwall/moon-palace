@@ -1,0 +1,54 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "title": "Antipode Visualizer",
+      "cat": "web app",
+      "year": "2019",
+      "img": "https://i.imgur.com/vvmqEzO.jpg",
+      "tools": [
+        "JavaScript"
+      ],
+      "imgs": [
+        "https://i.imgur.com/v6IBQjp.png",
+        "https://i.imgur.com/v6IBQjp.png",
+        "https://i.imgur.com/v6IBQjp.png"
+      ],
+      "slides": [
+        "https://i.imgur.com/v6IBQjp.png",
+        "https://i.imgur.com/v6IBQjp.png",
+        "https://i.imgur.com/v6IBQjp.png"
+      ],
+      "desc": "Tool to checkout the opposite point on earth with given location. Powered by MapBox API.",
+      "link": "http://sherunsfreely.com/antipodes/",
+      "github": "http://sherunsfreely.com/antipodes/",
+      "code": "https://github.com/fallwall/antipodes-visualizer",
+      "content": "Forward and Reverse Geocoding with MapBox."
+    },
+    {
+      "id": 2,
+      "title": "Lunch Decision Maker",
+      "cat": "experiments",
+      "year": "2019",
+      "img": "https://i.imgur.com/WYDoXic.jpg",
+      "tools": [
+        "ReactNative",
+        "MongoDB"
+      ],
+      "tagline": "Lunch choice aid.",
+      "content": "Eatery recommendation based on user inputs of location, prince range, prefered genre, and/or key words."
+    },
+    {
+      "id": 3,
+      "title": "Indie Jukebox",
+      "cat": "experiments",
+      "year": "2019",
+      "img": "https://i.imgur.com/GHnWdXD.jpg",
+      "tools": [
+        "Java"
+      ],
+      "tagline": "Tribute to Jukebox, popularly portraited from the movies' diner-set scenes.",
+      "content": "The fascination with diners has a long history. Usually viewed as an optimistic central tenet of Americana, diner nostalgia is rooted in the modern mythologizing of the 1950s, a time when the American middle class was great and life was wonderful. For me, diners are indicative of the loneliness of traveling, especially in America."
+    }
+  ]
+}
