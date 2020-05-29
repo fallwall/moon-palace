@@ -14,12 +14,34 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
+      prevScrollpos: window.pageYOffset,
+      arrowVisible: false,
       isWorkExtended: false,
       isAboutExtended: false,
       isMainPage: true,
       isWorkPage: false
     }
   }
+
+  componentDidMount=()=> {
+    window.addEventListener("scroll", this.handleScroll);
+  }
+  
+  componentWillUnmount=()=> {
+    window.removeEventListener("scroll", this.handleScroll);
+  }
+
+  handleScroll = () => {
+    const { prevScrollpos } = this.state;
+  
+    const currentScrollPos = window.pageYOffset;
+    const visible = prevScrollpos < currentScrollPos;
+  
+    this.setState({
+      prevScrollpos: currentScrollPos,
+      arrowVisible: visible
+    });
+  };
 
   changeWork = () => {
     this.setState(prevState => ({
@@ -47,7 +69,9 @@ class App extends Component {
           changeAbout={this.changeAbout} />
         {this.state.isAboutExtended && <AboutExtended />}
         <Footer />
-        <Arrow />
+        <Arrow
+          arrowVisible={this.state.arrowVisible}
+        />
       </div>
     );
   }

@@ -13,7 +13,7 @@ const BioWork = () => {
           className="bio-work-each">
           <img src={e.img} className={e.id === hover ? "hidden":""}/>
           <div className={e.id === hover ? "centered":"hidden"}>
-            {e.title}
+            <h1>{e.title}</h1>
           </div>
         </div>)}
     </div>

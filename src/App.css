@@ -1,4 +1,4 @@
-/* universal */
+/* global */
 a {
   text-decoration: none;
   color:black;
@@ -11,6 +11,7 @@ ul li {
 /* header */
 .header {
   background-color: white;
+  z-index:20;
   color: black;
   font-size: 1.4em;
   max-width: 2000px;
@@ -57,7 +58,7 @@ ul li {
 .bio-work-each {
   padding:2%;
   width: 100%;
-  background-color: lightgray;
+  /* background-color: lightgray; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -70,7 +71,7 @@ ul li {
   width: 100%;
   flex-shrink: 0;
   min-width: 100%;
-  min-height: 100%
+  min-height: 100%;
 }
 
 .hidden {
@@ -82,12 +83,15 @@ ul li {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  color:black;
+ 
 }
 
 .bio-work {
   display: flex;
   flex-wrap: wrap;
 }
+
 .bio-work>div {
   flex: 0 50%;
   border: white solid;
@@ -252,4 +256,8 @@ ul li {
 .arrow-container:hover {
   height: 50px;
   width: 50px;
+}
+
+.arrow-container-hidden {
+  visibility:none;
 }
