@@ -1,17 +1,18 @@
-import React, { useState} from 'react';
+import React, { useState } from 'react';
 import PrevNext from './PrevNext';
 
 import data from '../port/portfolio.json';
 
 import './WorkPage.css';
 
-const testData = data.data[0];
-const testSlides = testData.slides;
 
-const WorkPage = () => {
+
+const WorkPage = (props) => {
   const [slide, setSlide] = useState(0);
+  const testData = data.data[props.workItem-1];
+  const testSlides = testData.slides;
   setTimeout(() => {
-    slide < testSlides.length-1 ? setSlide(slide + 1) : setSlide(0);
+    slide < testSlides.length - 1 ? setSlide(slide + 1) : setSlide(0);
   }, 10000);
 
   return (

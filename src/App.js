@@ -19,24 +19,25 @@ class App extends Component {
       isWorkExtended: false,
       isAboutExtended: false,
       isMainPage: true,
-      isWorkPage: false
+      isWorkPage: false,
+      workItem: null
     }
   }
 
-  componentDidMount=()=> {
+  componentDidMount = () => {
     window.addEventListener("scroll", this.handleScroll);
   }
-  
-  componentWillUnmount=()=> {
+
+  componentWillUnmount = () => {
     window.removeEventListener("scroll", this.handleScroll);
   }
 
   handleScroll = () => {
     const { prevScrollpos } = this.state;
-  
+
     const currentScrollPos = window.pageYOffset;
     const visible = prevScrollpos < currentScrollPos;
-  
+
     this.setState({
       prevScrollpos: currentScrollPos,
       arrowVisible: visible
@@ -55,11 +56,27 @@ class App extends Component {
     }))
   }
 
+  changeToWorkPage = (ev) => {
+    // const [name] = ev.target;
+    // console.log(ev);
+    this.setState({
+      isMainPage: false,
+      isWorkPage: true,
+      workItem: parseInt(ev)
+    })
+  }
+
   render() {
     return (
       <div className="App" >
         <Header />
-        {this.state.isMainPage && <Main />}
+        
+        <Main
+          isMainPage={this.state.isMainPage}
+          isWorkPage={this.state.isWorkPage}
+          changeToWorkPage={this.changeToWorkPage}
+          workItem={this.state.workItem}
+        />
         <Work
           isWorkExtended={this.state.isWorkExtended}
           changeWork={this.changeWork} />
