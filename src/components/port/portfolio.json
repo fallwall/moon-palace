@@ -37,6 +37,16 @@
         "ReactNative",
         "MongoDB"
       ],
+      "imgs": [
+        "https://i.imgur.com/Utvn1ZO.jpg",
+        "https://i.imgur.com/Utvn1ZO.jpg",
+        "https://i.imgur.com/Utvn1ZO.jpg"
+      ],
+      "slides": [
+        "https://i.imgur.com/v6IBQjp.png",
+        "https://i.imgur.com/Utvn1ZO.jpg",
+        "https://i.imgur.com/vvmqEzO.jpg"
+      ],
       "tagline": "Lunch choice aid.",
       "content": "Eatery recommendation based on user inputs of location, prince range, prefered genre, and/or key words."
     },

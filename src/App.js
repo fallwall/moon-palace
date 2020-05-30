@@ -57,8 +57,6 @@ class App extends Component {
   }
 
   changeToWorkPage = (ev) => {
-    // const [name] = ev.target;
-    // console.log(ev);
     this.setState({
       isMainPage: false,
       isWorkPage: true,
@@ -66,11 +64,21 @@ class App extends Component {
     })
   }
 
+  changeToMainPage = (ev) => {
+    this.setState({
+      isMainPage: true,
+      isWorkPage: false,
+      workItem: null
+    })
+    window.scrollTo(0, 0);
+  }
+
   render() {
     return (
       <div className="App" >
-        <Header />
-        
+        <Header
+          changeToMainPage={this.changeToMainPage}
+        />
         <Main
           isMainPage={this.state.isMainPage}
           isWorkPage={this.state.isWorkPage}

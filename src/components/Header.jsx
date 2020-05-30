@@ -6,14 +6,16 @@ const coordinates = [
   { "city": "hgh", "coord": "30°16′N 120°9′E" }
 ]
 
-const Header = () => {
+const Header = (props) => {
   const [location, setLocation] = useState(0);
   setTimeout(() => {
     location < 2 ? setLocation(location + 1) : setLocation(0);
   }, 10000);
   return (
     <div className="header">
-      <div className="header-left">
+      <div
+        onClick={props.changeToMainPage}
+        className="header-left">
         Tibby Xu
       </div>
       <div className="header-right">
