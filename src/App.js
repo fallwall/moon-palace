@@ -73,6 +73,15 @@ class App extends Component {
     window.scrollTo(0, 0);
   }
 
+  changeWorkItem = (workItem) => {
+    this.setState({
+      isMainPage: false,
+      isWorkPage: true,
+      workItem: parseInt(workItem)
+    })
+    window.scrollTo(0, 0);
+  }
+
   render() {
     return (
       <div className="App" >
@@ -84,6 +93,7 @@ class App extends Component {
           isWorkPage={this.state.isWorkPage}
           changeToWorkPage={this.changeToWorkPage}
           workItem={this.state.workItem}
+          changeWorkItem={this.changeWorkItem}
         />
         <Work
           isWorkExtended={this.state.isWorkExtended}

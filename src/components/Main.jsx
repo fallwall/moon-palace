@@ -12,6 +12,7 @@ const Main = (props) => {
         <WorkPage
           changeToWorkPage={props.changeToWorkPage}
           workItem={props.workItem}
+          changeWorkItem={props.changeWorkItem}
         />}
     </div>
   )

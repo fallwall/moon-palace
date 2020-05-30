@@ -6,7 +6,6 @@ import data from '../port/portfolio.json';
 import './WorkPage.css';
 
 
-
 const WorkPage = (props) => {
   const [slide, setSlide] = useState(0);
   const testData = data.data[props.workItem-1];
@@ -45,7 +44,9 @@ const WorkPage = (props) => {
       <div className="workpage-slides">
         <img src={testSlides[slide]} alt="on ratotation display" />
       </div>
-      <PrevNext />
+      <PrevNext
+        workItem={props.workItem}
+        changeWorkItem={props.changeWorkItem} />
     </div>
   )
 }
