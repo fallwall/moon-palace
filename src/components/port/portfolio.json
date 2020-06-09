@@ -2,6 +2,33 @@
   "data": [
     {
       "id": 1,
+      "title": "Life Is Elsewhere",
+      "cat": "web app",
+      "year": "2020",
+      "img": "https://i.imgur.com/nlb4Z89.jpg",
+      "tools": [
+        "JavaScript",
+        "WordPress",
+        "API"
+      ],
+      "imgs": [
+        "https://i.imgur.com/Utvn1ZO.jpg",
+        "https://i.imgur.com/Utvn1ZO.jpg",
+        "https://i.imgur.com/Utvn1ZO.jpg"
+      ],
+      "slides": [
+        "https://i.imgur.com/v6IBQjp.png",
+        "https://i.imgur.com/Utvn1ZO.jpg",
+        "https://i.imgur.com/vvmqEzO.jpg"
+      ],
+      "desc": "Travel related content. Powered by WordPress API.",
+      "link": "http://tibbyelsewhere.surge.sh/",
+      "github": "https://github.com/fallwall/life-is-elsewhere",
+      "code": "https://github.com/fallwall/life-is-elsewhere",
+      "content": "WordPress API."
+    },
+    {
+      "id": 2,
       "title": "Antipode Visualizer",
       "cat": "web app",
       "year": "2019",
@@ -28,7 +55,7 @@
       "content": "Forward and Reverse Geocoding with MapBox."
     },
     {
-      "id": 2,
+      "id": 3,
       "title": "Lunch Decision Maker",
       "cat": "experiments",
       "year": "2019",
@@ -51,7 +78,7 @@
       "content": "Eatery recommendation based on user inputs of location, prince range, prefered genre, and/or key words."
     },
     {
-      "id": 3,
+      "id": 4,
       "title": "Indie Jukebox",
       "cat": "experiments",
       "year": "2019",
@@ -63,7 +90,7 @@
       "content": "The fascination with diners has a long history. Usually viewed as an optimistic central tenet of Americana, diner nostalgia is rooted in the modern mythologizing of the 1950s, a time when the American middle class was great and life was wonderful. For me, diners are indicative of the loneliness of traveling, especially in America."
     },
     {
-      "id": 4,
+      "id": 5,
       "title": "Antipode Visualizer",
       "cat": "web app",
       "year": "2019",
