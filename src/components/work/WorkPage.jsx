@@ -46,6 +46,8 @@ const WorkPage = (props) => {
       </div>
       <PrevNext
         workItem={props.workItem}
+        prevName={data.data[props.workItem-2].title}
+        nextName={data.data[props.workItem].title}
         changeWorkItem={props.changeWorkItem} />
     </div>
   )
