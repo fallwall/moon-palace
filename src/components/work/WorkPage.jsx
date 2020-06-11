@@ -36,10 +36,10 @@ const WorkPage = (props) => {
       </div>
       {/* !!!!!!!above is project summary!!!!!!! */}
       <div className="workpage-imgs">
-        {testData.imgs.map(i => <img src={i} alt="more about current project" />)}
+        {testData.imgs && testData.imgs.map(i => <img src={i} alt="more about current project" />)}
       </div>
       <div className="workpage-content">
-        {testData.content}
+        {testData.content && testData.content}
       </div>
       <div className="workpage-slides">
         <img src={testSlides[slide]} alt="on ratotation display" />

@@ -77,6 +77,8 @@ class App extends Component {
     this.setState({
       isMainPage: false,
       isWorkPage: true,
+      isWorkExtended: false,
+      isAboutExtended: false,
       workItem: parseInt(workItem)
     })
     window.scrollTo(0, 0);
@@ -98,7 +100,11 @@ class App extends Component {
         <Work
           isWorkExtended={this.state.isWorkExtended}
           changeWork={this.changeWork} />
-        {this.state.isWorkExtended && <WorkExtended />}
+        {this.state.isWorkExtended &&
+          <WorkExtended
+            changeWorkItem={this.changeWorkItem}
+          />
+        }
         <About
           isAboutExtended={this.state.isAboutExtended}
           changeAbout={this.changeAbout} />
