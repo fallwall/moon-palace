@@ -8,8 +8,9 @@ import './WorkPage.css';
 
 const WorkPage = (props) => {
   const [slide, setSlide] = useState(0);
-  const testData = data.data[props.workItem-1];
+  const testData = data.data[props.workItem - 1];
   const testSlides = testData.slides;
+  
   setTimeout(() => {
     slide < testSlides.length - 1 ? setSlide(slide + 1) : setSlide(0);
   }, 10000);
@@ -17,7 +18,7 @@ const WorkPage = (props) => {
   return (
     <div className="workpage">
       <div className="workpage-cover">
-        <img src={testData.img} alt="current project cover" />
+        {<img src={testData.img} alt="current project cover" />}
       </div>
       <div className="workpage-title">
         <h1>{testData.title}</h1>
@@ -42,12 +43,12 @@ const WorkPage = (props) => {
         {testData.content && testData.content}
       </div>
       <div className="workpage-slides">
-        <img src={testSlides[slide]} alt="on ratotation display" />
+        {testSlides && <img src={testSlides[slide]} alt="on ratotation display" />}
       </div>
       <PrevNext
         workItem={props.workItem}
-        prevName={data.data[props.workItem-2].title}
-        nextName={data.data[props.workItem].title}
+        prevName={props.workItem > 3 ? data.data[props.workItem-2].title: data.data[9].title}
+        nextName={props.workItem < 10 ? data.data[props.workItem].title : data.data[0].title}
         changeWorkItem={props.changeWorkItem} />
     </div>
   )
