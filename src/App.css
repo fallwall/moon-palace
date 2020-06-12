@@ -90,12 +90,12 @@ ul li {
   left: 50%;
   transform: translate(-50%, -50%);
   color:black;
- 
 }
 
 .bio-work {
   display: flex;
   flex-wrap: wrap;
+  margin-left: 1%;
 }
 
 .bio-work>div {
@@ -103,6 +103,7 @@ ul li {
   border: white solid;
   box-sizing:border-box
 }
+
 /* side-about */
 /* will be hidden in small screen */
 .side-about, .side-about-ex {
