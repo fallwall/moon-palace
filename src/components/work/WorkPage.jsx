@@ -14,7 +14,7 @@ const WorkPage = (props) => {
   // 10
   
   setTimeout(() => {
-    slide < testSlides.length - 1 ? setSlide(slide + 1) : setSlide(0);
+    testSlides && slide < testSlides.length - 1 ? setSlide(slide + 1) : setSlide(0);
   }, 10000);
 
   return (

@@ -21,7 +21,7 @@ const WorkExtended = (props) => {
         <li onClick={redirect} data-id="7">White Elephant</li>
         <li onClick={redirect} data-id="8">Loaf Day</li>
         <li onClick={redirect} data-id="9">Refresh</li>
-        <li onClick={redirect} data-id="10">Letters</li>
+        <li onClick={redirect} data-id="10">Prom & Others</li>
       </ul>
     </div>
   )

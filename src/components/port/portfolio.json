@@ -7,7 +7,7 @@
       "year": "2020",
       "img": "https://i.imgur.com/nlb4Z89.jpg",
       "tools": [
-        "JavaScript/React",
+        "ReactJS",
         "WordPress",
         "API"
       ],
@@ -35,18 +35,12 @@
       "img": "https://i.imgur.com/vvmqEzO.jpg",
       "tools": [
         "JavaScript",
-        "API",
-        "Another filler"
+        "API"
       ],
       "imgs": [
         "https://i.imgur.com/Utvn1ZO.jpg",
         "https://i.imgur.com/Utvn1ZO.jpg",
         "https://i.imgur.com/Utvn1ZO.jpg"
-      ],
-      "slides": [
-        "https://i.imgur.com/v6IBQjp.png",
-        "https://i.imgur.com/Utvn1ZO.jpg",
-        "https://i.imgur.com/vvmqEzO.jpg"
       ],
       "desc": "Tool to checkout the opposite point on earth with given location. Powered by MapBox API.",
       "link": "http://sherunsfreely.com/antipodes/",
@@ -61,21 +55,17 @@
       "year": "2019",
       "img": "https://i.imgur.com/4JItheL.jpg",
       "tools": [
-        "ReactNative",
-        "MongoDB"
+        "ReactJS",
+        "PostgreSQL",
+        "Ruby On Rails"
       ],
       "imgs": [
         "https://i.imgur.com/Utvn1ZO.jpg",
         "https://i.imgur.com/Utvn1ZO.jpg",
         "https://i.imgur.com/Utvn1ZO.jpg"
       ],
-      "slides": [
-        "https://i.imgur.com/v6IBQjp.png",
-        "https://i.imgur.com/Utvn1ZO.jpg",
-        "https://i.imgur.com/vvmqEzO.jpg"
-      ],
-      "tagline": "Lunch choice aid.",
-      "content": "Eatery recommendation based on user inputs of location, prince range, prefered genre, and/or key words."
+      "desc": "race database",
+      "content": ""
     },
     {
       "id": 4,
@@ -84,10 +74,11 @@
       "year": "2019",
       "img": "https://i.imgur.com/zlI8HDY.jpg",
       "tools": [
-        "Java"
+        "Lettering",
+        "Drawing"
       ],
-      "tagline": "Tribute to Jukebox, popularly portraited from the movies' diner-set scenes.",
-      "content": "The fascination with diners has a long history. Usually viewed as an optimistic central tenet of Americana, diner nostalgia is rooted in the modern mythologizing of the 1950s, a time when the American middle class was great and life was wonderful. For me, diners are indicative of the loneliness of traveling, especially in America."
+      "desc": "Still in making.",
+      "content": "Every address I have ever lived in during the whole decade that I lived in New York City."
     },
     {
       "id": 5,
@@ -96,23 +87,21 @@
       "year": "2019",
       "img": "https://i.imgur.com/v5bkER3.jpg",
       "tools": [
-        "JavaScript"
+        "Drawing"
       ],
       "imgs": [
-        "https://i.imgur.com/v6IBQjp.png",
-        "https://i.imgur.com/v6IBQjp.png",
-        "https://i.imgur.com/v6IBQjp.png"
+        "https://i.imgur.com/iQTzSNU.jpg",
+        "https://i.imgur.com/cOoNix5.jpg",
+        "https://i.imgur.com/xpSTghz.jpg",
+        "https://i.imgur.com/YqsexQY.jpg",
+        "https://i.imgur.com/DSQsezb.jpg",
+        "https://i.imgur.com/9E9zZaA.jpg"
       ],
-      "slides": [
-        "https://i.imgur.com/v6IBQjp.png",
-        "https://i.imgur.com/v6IBQjp.png",
-        "https://i.imgur.com/v6IBQjp.png"
-      ],
-      "desc": "Tool to checkout the opposite point on earth with given location. Powered by MapBox API.",
+      "desc": "Hand-drawn album covers.",
       "link": "http://sherunsfreely.com/antipodes/",
       "github": "http://sherunsfreely.com/antipodes/",
       "code": "https://github.com/fallwall/antipodes-visualizer",
-      "content": "Forward and Reverse Geocoding with MapBox."
+      "content": "Music raised me."
     },
     {
       "id": 6,
@@ -121,25 +110,15 @@
       "year": "2020",
       "img": "https://i.imgur.com/u7mRTYc.jpg",
       "tools": [
-        "JavaScript/React",
-        "WordPress",
-        "API"
+        "Lettering",
+        "Drawing"
       ],
-      "imgs": [
-        "https://i.imgur.com/Utvn1ZO.jpg",
-        "https://i.imgur.com/Utvn1ZO.jpg",
-        "https://i.imgur.com/Utvn1ZO.jpg"
-      ],
-      "slides": [
-        "https://i.imgur.com/v6IBQjp.png",
-        "https://i.imgur.com/Utvn1ZO.jpg",
-        "https://i.imgur.com/vvmqEzO.jpg"
-      ],
-      "desc": "Travel related content. Powered by WordPress API.",
+
+      "desc": "Still in making.",
       "link": "http://tibbyelsewhere.surge.sh/",
       "github": "https://github.com/fallwall/life-is-elsewhere",
       "code": "https://github.com/fallwall/life-is-elsewhere",
-      "content": "WordPress API."
+      "content": "Still filling in."
     },
     {
       "id": 7,
@@ -148,25 +127,19 @@
       "year": "2019",
       "img": "https://i.imgur.com/4SDveZG.jpg",
       "tools": [
-        "JavaScript",
-        "API",
-        "Another filler"
+        "Adobe Illustrator",
+        "Epilog Fusion Pro"
       ],
       "imgs": [
-        "https://i.imgur.com/Utvn1ZO.jpg",
-        "https://i.imgur.com/Utvn1ZO.jpg",
-        "https://i.imgur.com/Utvn1ZO.jpg"
+        "https://i.imgur.com/IWlfuVx.jpg",
+        "https://i.imgur.com/PtKouEs.jpg",
+        "https://i.imgur.com/Hkv3y8P.jpg"
       ],
-      "slides": [
-        "https://i.imgur.com/v6IBQjp.png",
-        "https://i.imgur.com/Utvn1ZO.jpg",
-        "https://i.imgur.com/vvmqEzO.jpg"
-      ],
-      "desc": "Tool to checkout the opposite point on earth with given location. Powered by MapBox API.",
+      "desc": "Props for White Elephant Gift Exchange.",
       "link": "http://sherunsfreely.com/antipodes/",
       "github": "http://sherunsfreely.com/antipodes/",
       "code": "https://github.com/fallwall/antipodes-visualizer",
-      "content": "Forward and Reverse Geocoding with MapBox."
+      "content": "Props for White Elephant Gift Exchange."
     },
     {
       "id": 8,
@@ -175,21 +148,15 @@
       "year": "2019",
       "img": "https://i.imgur.com/lA31ECn.jpg",
       "tools": [
-        "ReactNative",
-        "MongoDB"
+        "Lettering"
       ],
       "imgs": [
-        "https://i.imgur.com/Utvn1ZO.jpg",
-        "https://i.imgur.com/Utvn1ZO.jpg",
-        "https://i.imgur.com/Utvn1ZO.jpg"
+        "https://i.imgur.com/3UKvWN6.jpg",
+        "https://i.imgur.com/3UKvWN6.jpg",
+        "https://i.imgur.com/pxxVCxf.jpg"
       ],
-      "slides": [
-        "https://i.imgur.com/v6IBQjp.png",
-        "https://i.imgur.com/Utvn1ZO.jpg",
-        "https://i.imgur.com/vvmqEzO.jpg"
-      ],
-      "tagline": "Lunch choice aid.",
-      "content": "Eatery recommendation based on user inputs of location, prince range, prefered genre, and/or key words."
+      "desc": "Every Friday morning fresh from a New York City bakery.",
+      "content": "From long fermanted dark rye from Ole & Steen to heritage knish from Yonah Schimmel's. "
     },
     {
       "id": 9,
@@ -198,35 +165,53 @@
       "year": "2019",
       "img": "https://i.imgur.com/GHnWdXD.jpg",
       "tools": [
-        "Java"
+        "Arduino",
+        "Thermal Printer",
+        "Adobe Illustartor",
+        "Epilog Fusion Pro"
       ],
-      "tagline": "Tribute to Jukebox, popularly portraited from the movies' diner-set scenes.",
-      "content": "The fascination with diners has a long history. Usually viewed as an optimistic central tenet of Americana, diner nostalgia is rooted in the modern mythologizing of the 1950s, a time when the American middle class was great and life was wonderful. For me, diners are indicative of the loneliness of traveling, especially in America."
+      "imgs": [
+        "https://i.imgur.com/q5vlro9.jpg",
+        "https://i.imgur.com/ZbxT7I0.jpg",
+        "https://i.imgur.com/yHLp86p.jpg",
+        "https://i.imgur.com/1dtIkDn.jpg",
+        "https://i.imgur.com/tKHbtDm.jpg"
+      ],
+      "desc": "Inspirational quotes thermal printer",
+      "content": "Inspired by the calming quotes my yoga teacher Kathryn Leary constantly repeated. "
     },
     {
       "id": 10,
-      "title": "Lettering",
+      "title": "Prom & Others",
       "cat": "experiments",
       "year": "2019",
       "img": "https://i.imgur.com/q1evQXr.jpg",
       "tools": [
-        "JavaScript"
+        "Drawing",
+        "Letters"
       ],
       "imgs": [
-        "https://i.imgur.com/v6IBQjp.png",
-        "https://i.imgur.com/v6IBQjp.png",
-        "https://i.imgur.com/v6IBQjp.png"
+        "https://i.imgur.com/SfD3YEc.jpg",
+        "https://i.imgur.com/VxGjoD0.jpg",
+        "https://i.imgur.com/6nwnNcp.jpg",
+        "https://i.imgur.com/y3kwfGa.jpg",
+        "https://i.imgur.com/gxdiITy.jpg",
+        "https://i.imgur.com/A5FAFCk.jpg",
+        "https://i.imgur.com/J1Z9KCN.jpg",
+        "https://i.imgur.com/6tr5uI1.jpg",
+        "https://i.imgur.com/O0Q2KBb.jpg",
+        "https://i.imgur.com/ym8vdlN.jpg",
+        "https://i.imgur.com/yeiDgFw.jpg",
+        "https://i.imgur.com/1NNCc58.jpg",
+        "https://i.imgur.com/KHAgw2l.jpg",
+        "https://i.imgur.com/mB9KxpH.jpg",
+        "https://i.imgur.com/r8shK0l.jpg"
       ],
-      "slides": [
-        "https://i.imgur.com/v6IBQjp.png",
-        "https://i.imgur.com/v6IBQjp.png",
-        "https://i.imgur.com/v6IBQjp.png"
-      ],
-      "desc": "Tool to checkout the opposite point on earth with given location. Powered by MapBox API.",
+      "desc": "For IDEO NY internal events.",
       "link": "http://sherunsfreely.com/antipodes/",
       "github": "http://sherunsfreely.com/antipodes/",
       "code": "https://github.com/fallwall/antipodes-visualizer",
-      "content": "Forward and Reverse Geocoding with MapBox."
+      "content": "Prom themed Christmas party poster with IDEOer's pets and locker room flyer. And more."
     }
   ]
 }
