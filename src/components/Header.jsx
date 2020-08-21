@@ -15,7 +15,8 @@ const Header = (props) => {
     <div className="header">
       <div
         onClick={props.changeToMainPage}
-        className="header-left">
+        className="header-left clickable"
+      >
         Tibby Xu
       </div>
       <div className="header-right">

@@ -59,18 +59,13 @@
         "PostgreSQL",
         "Ruby On Rails"
       ],
-      "imgs": [
-        "https://i.imgur.com/Utvn1ZO.jpg",
-        "https://i.imgur.com/Utvn1ZO.jpg",
-        "https://i.imgur.com/Utvn1ZO.jpg"
-      ],
       "desc": "race database",
-      "content": ""
+      "content": "https://github.com/fallwall/in-my-running-shoes"
     },
     {
       "id": 4,
       "title": "Address Book",
-      "cat": "illustartions",
+      "cat": "illustrations",
       "year": "2019",
       "img": "https://i.imgur.com/zlI8HDY.jpg",
       "tools": [
@@ -113,7 +108,6 @@
         "Lettering",
         "Drawing"
       ],
-
       "desc": "Still in making.",
       "link": "http://tibbyelsewhere.surge.sh/",
       "github": "https://github.com/fallwall/life-is-elsewhere",
