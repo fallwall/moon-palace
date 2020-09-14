@@ -12,7 +12,7 @@ const WorkPage = (props) => {
   const testSlides = testData.slides;
   const LENGTH = data.data.length;
   // 10
-  
+
   setTimeout(() => {
     testSlides && slide < testSlides.length - 1 ? setSlide(slide + 1) : setSlide(0);
   }, 10000);
@@ -33,13 +33,16 @@ const WorkPage = (props) => {
         </div>
         <div className="workpage-summary-desc">
           <div>
-            {testData.desc}
+            {testData.desc.content}
+            <div><b>GitHub</b> | {testData.desc.github}</div>
+            <div><b>Visit</b> | {testData.desc.url}</div>
+
           </div>
         </div>
       </div>
       {/* !!!!!!!above is project summary!!!!!!! */}
       <div className="workpage-imgs">
-        {testData.imgs && testData.imgs.map((i,a) => <img key={a} src={i} alt="more about current project" />)}
+        {testData.imgs && testData.imgs.map((i, a) => <img key={a} src={i} alt="more about current project" />)}
       </div>
       <div className="workpage-content">
         {testData.content && testData.content}

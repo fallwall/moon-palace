@@ -51,6 +51,12 @@
   align-items: center;
 }
 
+/* desc on right side */
+.workpage-summary-desc {
+  text-align: left;
+  margin-left: 5%;
+}
+
 /* red flag here */
 .prev:hover, .next:hover, .prev h1:hover, .next h1:hover {
   background: black;

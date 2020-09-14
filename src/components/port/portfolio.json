@@ -21,7 +21,11 @@
         "https://i.imgur.com/Utvn1ZO.jpg",
         "https://i.imgur.com/vvmqEzO.jpg"
       ],
-      "desc": "Travel related content. Powered by WordPress API.",
+      "desc": {
+        "content": "Travel related content. Powered by WordPress API.",
+        "github": "http://",
+        "url": "http://"
+            },
       "link": "http://tibbyelsewhere.surge.sh/",
       "github": "https://github.com/fallwall/life-is-elsewhere",
       "code": "https://github.com/fallwall/life-is-elsewhere",
